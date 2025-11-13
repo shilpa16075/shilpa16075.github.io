@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Holes - Space Explorer</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at top, #000000 0%, #050014 80%);
+      color: #e5e5e5;
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 0 30px rgba(138,43,226,0.5);
+    }
+
+    header h1 {
+      font-size: 38px;
+      color: #9d4edd;
+      margin-bottom: 8px;
+      text-shadow: 0 0 15px rgba(157,78,221,0.8);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #f1eaff;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover, nav ul li a.active {
+      color: #bb86fc;
+    }
+
+    /* Blackhole Sections */
+    .blackholes-section {
+      display: flex;
+      flex-direction: column;
+      gap: 90px;
+      padding: 80px 100px;
+    }
+
+    .blackhole {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 60px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 25px;
+      padding: 50px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 0 25px rgba(138,43,226,0.3);
+    }
+
+    .blackhole:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 45px rgba(138,43,226,0.6);
+    }
+
+    .blackhole:nth-child(even) {
+      flex-direction: row-reverse;
+      background: rgba(255,255,255,0.07);
+    }
+
+    .blackhole-img img {
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #bb86fc;
+      box-shadow: 0 0 35px rgba(187,134,252,0.8);
+    }
+
+    .blackhole-text {
+      flex: 1;
+    }
+
+    .blackhole-text h2 {
+      font-size: 32px;
+      color: #bb86fc;
+      margin-bottom: 15px;
+      text-shadow: 0 0 12px rgba(187,134,252,0.8);
+    }
+
+    .blackhole-text p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #d4b3ff;
+    }
+
+    footer {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.9);
+      padding: 20px;
+      color: #ccc;
+      margin-top: 60px;
+      font-size: 14px;
+      border-top: 1px solid rgba(187,134,252,0.3);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>🌀 The Black Holes</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planets.html">Planets</a></li>
+        <li><a href="galaxy.html">Galaxies</a></li>
+        <li><a href="blackhole.html" class="active">Black Holes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== CONTENT ===== -->
+  <main class="blackholes-section">
+
+    <section class="blackhole">
+      <div class="blackhole-text">
+        <h2>🌑 Sagittarius A*</h2>
+        <p>At the heart of our Milky Way lies a monster — Sagittarius A*, a supermassive black hole with a mass of over 4 million Suns. Hidden behind clouds of dust and gas, it silently consumes matter while bending light itself around its core. It’s the beating dark heart of our galaxy.</p>
+      </div>
+      <div class="blackhole-img">
+        <img src="blackhole hme.jpg" alt="Sagittarius A*">
+      </div>
+    </section>
+
+    <section class="blackhole">
+      <div class="blackhole-img">
+        <img src="astro.jpg" alt="Cygnus X-1">
+      </div>
+      <div class="blackhole-text">
+        <h2>⚫ Cygnus X-1</h2>
+        <p>Cygnus X-1 was the first black hole ever discovered and remains one of the most powerful X-ray sources in the night sky. Formed from a collapsed massive star, it continuously pulls matter from a nearby blue supergiant, creating violent X-ray outbursts visible across space.</p>
+      </div>
+    </section>
+
+    <section class="blackhole">
+      <div class="blackhole-text">
+        <h2>🌘 Messier 87* (M87*)</h2>
+        <p>This giant black hole in the center of the Virgo A galaxy is so massive that its event horizon could engulf our entire solar system. M87* became world-famous in 2019 when astronomers captured its first-ever real image — a glowing orange ring surrounding an infinite shadow.</p>
+      </div>
+      <div class="blackhole-img">
+        <img src="astroo.jpeg" alt="M87 Black Hole">
+      </div>
+    </section>
+
+    <section class="blackhole">
+      <div class="blackhole-img">
+        <img src="black.jpeg" alt="TON 618">
+      </div>
+      <div class="blackhole-text">
+        <h2>🌒 TON 618</h2>
+        <p>TON 618 is the largest and most luminous black hole ever known — an unimaginable cosmic giant with a mass more than 66 billion times that of the Sun. Its energy output is so vast that it outshines entire galaxies, a blazing beacon in the farthest reaches of the universe.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Space Explorer | Designed by Shilpa Singh 🪐</p>
+  </footer>
+
+</body>
+</html>

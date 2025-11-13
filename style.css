@@ -1,0 +1,73 @@
+/* ======= HEADER SECTION ======= */
+header {
+  background: linear-gradient(90deg, #000428, #004e92);
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo-title img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo-title h1 {
+  color: #ffffff;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+/* ======= NAVIGATION BAR ======= */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #300361;
+  font-size: 1.1em;
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #00bfff;
+  text-shadow: 0 0 10px #00bfff;
+}
+main {
+  background-image: url("blackhole2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;  /* text visible rahe image pe */
+  padding: 50px; /* thoda space text ke around */
+  border-radius: 15px; /* optional - rounded edges */
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+.content {
+  background-image: 
+url("blackhole2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+backgroung-position: center;
+color : white;
+padding: 50px
+}
